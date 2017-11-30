@@ -1,0 +1,117 @@
+
+body {   height:2500px;  background: #000; }
+
+.svg-1, .svg-2, .svg-3, .svg-4, .svg-6, .svg-7 {
+  font-family:  Arial, sans-serif !important;
+  position: absolute;
+  margin-right: 50%;
+  transform: translateX(-50%);
+  overflow: visible;
+}
+
+.svg-1 {
+  top: 660PX;
+  left: 580px;
+}
+ .svg-2 {
+  top:570PX;
+  left: 740px;
+}
+
+.svg-3 {
+  top:660PX;
+  left: 680px;
+}
+ .svg-4 {
+  top: 573PX;
+  left: 950px;
+}
+
+ .svg-6 {
+  top:485PX;
+  left: 1090px;
+}
+ .svg-7 {
+  top:570PX;
+  left: 1090px;
+}
+
+.svg-1 text {
+  stroke-dasharray: 1600;
+  stroke-dashoffset: 1600;
+  -webkit-animation: 3s draw 4s forwards;
+  -moz-animation: 3s draw 4s forwards;
+  -o-animation: 3s draw 4s forwards;
+  -ms-animation: 3s draw 4s forwards;
+  animation: 3s draw 4s forwards;
+  font-size:310px;
+  overflow: visible;
+}
+
+.svg-2 text {
+  stroke-dasharray: 1600;
+  stroke-dashoffset: 1600;
+  -webkit-animation: 3s draw 4s forwards;
+  -moz-animation: 3s draw 4s forwards;
+  -o-animation: 3s draw 4s forwards;
+  -ms-animation: 3s draw 4s forwards;
+  animation: 3s draw 4s forwards;
+  font-size:96px;
+  overflow: visible;
+}
+
+
+
+.svg-3 text {
+  stroke-dasharray: 1600;
+  stroke-dashoffset: 1600;
+  -webkit-animation: 3s draw 5s forwards;
+  -moz-animation: 3s draw 5s forwards;
+  -o-animation: 3s draw 5s forwards;
+  -ms-animation: 3s draw 5s forwards;
+  animation: 3s draw 5s forwards;
+  font-size:96px;
+  overflow: visible;
+}
+
+.svg-4 text {
+  stroke-dasharray: 1600;
+  stroke-dashoffset: 1600;
+  -webkit-animation: 3s draw 6s forwards;
+  -moz-animation: 3s draw 6s forwards;
+  -o-animation: 3s draw 6s forwards;
+  -ms-animation: 3s draw 6s forwards;
+  animation: 3s draw 6s forwards;
+  font-size:310px;
+  overflow: visible;
+}
+
+.svg-6 text {
+  stroke-dasharray: 1600;
+  stroke-dashoffset: 1600;
+  -webkit-animation: 3s draw 6s forwards;
+  -moz-animation: 3s draw 6s forwards;
+  -o-animation: 3s draw 6s forwards;
+  -ms-animation: 3s draw 6s forwards;
+  animation: 3s draw 6s forwards;
+  font-size:96px;
+  overflow: visible;
+}
+
+.svg-7 text {
+  stroke-dasharray: 1600;
+  stroke-dashoffset: 1600;
+  -webkit-animation: 3s draw 7s forwards;
+  -moz-animation: 3s draw 7s forwards;
+  -o-animation: 3s draw 7s forwards;
+  -ms-animation: 3s draw 7s forwards;
+  animation: 3s draw 7s forwards;
+  font-size:96px;
+  overflow: visible;
+}
+
+@keyframes draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
